@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marah Art Gallery - Shop</title>
+
+    <link rel="stylesheet" href="items.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+       <div class="header">
+        <img class="logo" src="images/MarahLogo-removebg-preview.png" />
+        <div class="links" >
+            <a href="test.html">Home</a>
+            <a href="items.html">Our shop</a>
+            <a href="cart.html" class="cart">Cart</a>
+            <a href="test.html#contact">Contact</a>
+            <button onclick="window.location.href='login.html'">Sign in</button>
+        </div>
+    </header>
+
+
+    <!-- Shop Section -->
+    <section class="shop">
+
+        <div class="shop-title">
+            <img src="images/titleFRA.png" class="titleframe">
+            <h2>Our Artworks</h2>
+            <p>Discover beautiful artworks and add your favorite pieces to your collection.</p>
+        </div>
+
+
+        <!-- Products -->
+        <div class="products">
+
+            <!-- Item 1 -->
+            <div class="product-card">
+                <img src="images/piano.jpg" alt="Abstract Painting">
+
+                <div class="product-info">
+                    <h3>The broken Piano</h3>
+                    <p class="category">Abstract Art</p>
+                    <p class="description">
+                        A colorful abstract painting inspired by imagination and emotions.
+                    </p>
+
+                    <div class="price-cart">
+                        <span>$120</span>
+                        <button onclick="addToCart('The broken Piano', 120, 'images/piano.jpg')">
+                Add to Cart
+            </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Item 2 -->
+            <div class="product-card">
+                <img src="images/sunset.jpg" alt="Nature Painting">
+
+                <div class="product-info">
+                    <h3>Nature's Beauty</h3>
+                    <p class="category">Nature Art</p>
+                    <p class="description">
+                        A peaceful artwork representing the beauty and calmness of nature.
+                    </p>
+
+                    <div class="price-cart">
+                        <span>$150</span>
+                        <button onclick="addToCart('Natures Beauty', 150, 'images/sunset.jpg')">
+                Add to Cart
+            </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Item 3 -->
+            <div class="product-card">
+                <img src="images/flora.jpg" alt="Portrait Painting">
+
+                <div class="product-info">
+                    <h3>Silent Expression</h3>
+                    <p class="category">Portrait</p>
+                    <p class="description">
+                        A unique portrait that expresses emotion through colors and shadows.
+                    </p>
+
+                    <div class="price-cart">
+                        <span>$180</span>
+                        <button onclick="addToCart('Silent Expression', 180, 'images/flora.jpg')">
+                Add to Cart
+            </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Item 4 -->
+            <div class="product-card">
+                <img src="images/BPaint.jpg" alt="Modern Painting">
+
+                <div class="product-info">
+                    <h3>Modern Vision</h3>
+                    <p class="category">Modern Art</p>
+                    <p class="description">
+                        A modern artwork combining simple shapes with elegant colors.
+                    </p>
+
+                    <div class="price-cart">
+                        <span>$200</span>
+                        <button onclick="addToCart('Modern Vision', 200, 'images/BPaint.jpg')">
+                Add to Cart
+            </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Item 5 -->
+            <div class="product-card">
+                <img src="images/bestsale.jpg" alt="Classic Painting">
+
+                <div class="product-info">
+                    <h3>Red Sea</h3>
+                    <p class="category">Classic Art</p>
+                    <p class="description">
+                        An elegant classic artwork created for lovers of traditional art.
+                    </p>
+
+                    <div class="price-cart">
+                        <span>$175</span>
+                        <button onclick="addToCart('Red Sea', 175, 'images/bestsale.jpg')">
+                Add to Cart
+            </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Item 6 -->
+            <div class="product-card">
+                <img src="images/simplem.jpg" alt="Minimalist Painting">
+
+                <div class="product-info">
+                    <h3>Simple Moments</h3>
+                    <p class="category">Minimalist Art</p>
+                    <p class="description">
+                        A simple and elegant piece that brings a peaceful feeling to any room.
+                    </p>
+
+                    <div class="price-cart">
+                        <span>$100</span>
+                        <button onclick="addToCart('Simple Moments', 100, 'images/simplem.jpg')">
+                Add to Cart
+            </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Marah Art Gallery. All Rights Reserved.</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marah Art - Cart</title>
+
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+
+   <!--HEADER-->
+    <div class="header">
+        <img class="logo" src="images/MarahLogo-removebg-preview.png" />
+        <div class="links" >
+            <a href="test.html">Home</a>
+            <a href="items.html">Our shop</a>
+            <a href="cart.html" class="cart">Cart</a>
+            <a href="test.html#contact">Contact</a>
+            <button onclick="window.location.href='login.html'">Sign in</button>
+        </div>
+    </div>
+
+
+    <section class="cart-section">
+
+        <h2>Your Cart</h2>
+
+        <div id="cart-items"></div>
+
+        <div class="cart-total">
+            <h3>Total: $<span id="total">0</span></h3>
+
+            <button onclick="clearCart()">Clear Cart</button>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
